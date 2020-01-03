@@ -49,7 +49,7 @@ A class has one or more methods. In the dog class, the bark method will hold ins
 
 What goes in a METHOD?
 
- Within the curly braces of a method, write your instructions for how the method should be performed. Method code is basically a set of statements, and for now you can think of a method of like a function or procedure (For pyhoners at the base level it is essentially a user-made function) 
+ Within the curly braces of a method, write your instructions for how the method should be performed. Method code is basically a set of statements, and for now you can think of a method of like a function or procedure (For people more familiar with languages like python, at the base level it is essentially a user-made function) 
 
     public class dog
     {
