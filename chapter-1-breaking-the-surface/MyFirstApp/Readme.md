@@ -21,7 +21,7 @@ What you'll do in Java is
 
 3) Run the compiled code in a virtual machine 
 
-The version of Java (Java 1, Java 2, Java 5, etc) is named by the second number in the version (Java 1 is Java 1.1, Java 2 is Java 1.2 and higher, and Java 5 is Java 1.5 and higher). Each version is dramatically different and faster than one before last. 
+The version of Java (Java 1, Java 2, Java 5, etc) is named by the second number in the version (Java 1 is Java 1.1, Java 2 is Java 1.2 and higher, and Java 5 is Java 1.5 and higher). Each version is dramatically different and faster than one before last. To be specific Java 1.02 had a lot of bugs and was slow, Java 2.2 was a little fast and had better GUI code, java 2(1.2 - 1.4) was much faster, could run at native speeds, and was more powerful, and java 5(1.5 and onwards) was way more powerful and easier to develop with.
 
 Code Structure in Java:
 
