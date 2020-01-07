@@ -88,7 +88,7 @@ REMEMBER: A class is not an object but it's used to the construct them.
 
 ## Making your first object
 
-So what does it tae to create and use an object? You need two classes. One class for the type of object you want to use and another class to test your new class. The tester class is where you put the main() method where you create and access objects of your new class type
+So what does it take to create and use an object? You need two classes. One class for the type of object you want to use and another class to test your new class. The tester class is where you put the main() method where you create and access objects of your new class type
 
 ### 1) Write your class
 
