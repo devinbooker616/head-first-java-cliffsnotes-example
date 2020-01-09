@@ -79,3 +79,8 @@ Arrays give you fast random access by letting you use an index position to get t
 | float   |   32 bits    |          varies           |
 | double  |   64 bits    |          varies           |
 
+## questions
+
+- what are the declaration rules (variable must have name and type)
+- what are at least 3 primitive types (integers, booleans, and floating point numbers)
+- There is actually no such thing as a....?(object variable
