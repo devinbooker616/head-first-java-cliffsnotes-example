@@ -46,7 +46,7 @@ There are only two declaration rules which are:
 
 Arrays give you fast random access by letting you use an index position to get to any element in the array 
 
-1) Declare an int array variable. An array variable is a remote control to an a 
+1) Declare an int array variable. An array variable is a remote control to an array object
  
 ``` java
     int [] nums;
@@ -68,16 +68,16 @@ Arrays give you fast random access by letting you use an index position to get t
 ```
 ## Tables for primitive types:
 
-| Type    |  Bit Depth   |        Value Range        |
-| ------- | :----------: | :-----------------------: |
-| boolean | JVM Specific |        true/false         |
-| char    |   16 bits    |        0 to 65535         |
-| byte    |    8 bits    |        -128 to 127        |
-| short   |   16 bits    |      -32768 to 32767      |
-| int     |   32 bits    | -2147483648 to 2147483647 |
-| long    |   64 bits    |       huge to huge        |
-| float   |   32 bits    |          varies           |
-| double  |   64 bits    |          varies           |
+| Type    | Bit Depth    | Value Range               |
+|---------|--------------|---------------------------|
+| boolean | JVM Specific | true/false                |
+| char    | 16 bits      | 0 to 65535                |
+| byte    | 8 bits       | -128 to 127               |
+| short   | 16 bits      | -32768 to 32767           |
+| int     | 32 bits      | -2147483648 to 2147483647 |
+| long    | 64 bits      | huge to huge              |
+| float   | 32 bits      | varies                    |
+| double  | 64 bits      | varies                    |
 
 ## questions
 
