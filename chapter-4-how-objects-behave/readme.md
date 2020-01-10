@@ -9,9 +9,9 @@
 - A method must declare a return type. A void return type means the method doesn't return anything.
 - If a method declares a non-void return type, it must return a value compatible wit the declared return type.
 
-## Escapulation
+## Encapsulation
 
-- In escapulation the instance variable should be hidden by the use of private access modifiers.
+- In encapsulation the instance variable should be hidden by the use of private access modifiers.
 - The instance variables can only be accessed using a getter or a setter method with public access modifiers.
 
 ## Instance and local variables
