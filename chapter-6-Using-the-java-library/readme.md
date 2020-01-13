@@ -6,7 +6,7 @@
 - To find out where something is (and if it is) in an ArrayList, use indexOf().
 - To find out if an ArrayList is empty, use isEmpty().
 - To get the size (number of elements) is an ArrayList, use the size() method.
-- To get the length (number of elements) in a regular old array, remeber, you use the length variable.
+- To get the length (number of elements) in a regular old array, remember, you use the length variable.
 - An ArrayList resizes dynamically to what-ever size is needed. It grows when objects are added, and it shrinks when objects are removed. You declare the type of the array using a type parameter, which is a type name in angle brackets. Example: ArrayList<Button> means the ArrayList will be able to hold only objects of type Button (or subclasses of Button as you’ll learn in the next couple of chapters). Although an ArrayList holds objects and not primitives, the compiler will automatically “wrap” (and “unwrap” when you take it out) a primi-tive into an Object, and place that object in the ArrayList instead of the primitive. (More on this feature later in the book.)
 - Classes are grouped into packages.
 - A class has a full name, which is a combina-tion of the package name and the class name. Class ArrayList is really java.util.ArrayList.
