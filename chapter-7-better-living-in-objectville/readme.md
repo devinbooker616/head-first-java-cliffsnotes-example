@@ -15,3 +15,29 @@
 - The return types can be different.
 - You can’t change ONLY the return type.
 - You can vary the access levels in any direction.
+
+## inheritance example 
+``` java 
+public class Doctor {
+    boolean worksAtHospital;
+
+    void treatPatient() {
+        // perform a checkup 
+    }
+}
+
+public class FamilyDoctor extends Doctor {
+    boolean makesHouseCalls;
+    void giveAdvice() {
+        // give homespun advice
+    }
+}
+
+public class Surgeon extends Doctor {
+    void treatPatient() {
+        //treatPatient
+    }
+     void makeIncision() {
+         //make incision 
+     }
+}
