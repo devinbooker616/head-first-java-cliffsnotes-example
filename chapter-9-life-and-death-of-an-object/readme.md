@@ -6,7 +6,7 @@
 - If you don’t put a constructor in your class, the compiler will put in a default constructor. The default constructor is always a no-arg constructor.
 - If you put a constructor—any constructor—in your class, the compiler will not build the default constructor.
 - If you want a no-arg constructor, and you’ve already put in a constructor with arguments, you’ll have to build the no-arg constructor yourself.
-- Always provide a no-arg constructor if you can, to make it easy for programmers to make a working object. Supply default values.
+- Always provide a no-arg if you can, to make it easy for programmers to make a working object. Supply default values.
 - Overloaded constructors means you have more than one constructor in your class.
 - Overloaded constructors must have different argument lists.
 - You cannot have two constructors with the same argument lists. An argument list includes the order and/or type of arguments.
@@ -15,19 +15,21 @@
 ## Things to remember about constructors
 
 - A constructor is the code that runs when somebody says new on a class type
-
+``` java
      Duck d = new Duck();
-
+```
 - A constructor must have the same name as the class, and no return type
-
+``` java
      public Duck(int size) { };
-
+```
 - If you don’t put a constructor in your class, the compiler puts in a default constructor. The default constructor is always a no-arg constructor.
-
+``` java
      public Duck() { }
-
+```
 - You can have more than one constructor in your class, as long as the argument lists are different. Having more than one constructor in a class means you have overloaded constructors.
+``` java
 - public Duck() { }
 - public Duck(int size) { }
-- public Ducl(String name) { }
-- public Duck(String name, int size) { }
+- public Duck(String name) { }
+- public Duck(String name, int size) { };
+```
