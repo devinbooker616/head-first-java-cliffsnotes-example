@@ -16,19 +16,19 @@ There are only two declaration rules which are:
 - variables must have a type
 - variables must have a name
 
-    int x;
-    x = 234;
-    byte b = 89;
-    boolean isFun = true;
-    double d = 3456.98;
-    char c = 'f';
-    int z = x;
-    boolean isPunkRock;
-    isPunkRock = false;
-    boolean powerOn;
-    powerOn = isFun;
-    long big = 3456789;
-    float f = 32.5f;//Gotta have the f with the float or java will think it's a double
+    - int x;
+    - x = 234;
+    - byte b = 89;
+    - boolean isFun = true;
+    - double d = 3456.98;
+    - char c = 'f';
+    - int z = x;
+    - boolean isPunkRock;
+    - isPunkRock = false;
+    - boolean powerOn;
+    - powerOn = isFun;
+    - long big = 3456789;
+    - float f = 32.5f;//Gotta have the f with the float or java will think it's a double
 
 ## Three rules
 
@@ -69,7 +69,7 @@ Arrays give you fast random access by letting you use an index position to get t
 ## Tables for primitive types:
 
 | Type    | Bit Depth    | Value Range               |
-|---------|--------------|---------------------------|
+| ------- | ------------ | ------------------------- |
 | boolean | JVM Specific | true/false                |
 | char    | 16 bits      | 0 to 65535                |
 | byte    | 8 bits       | -128 to 127               |
