@@ -91,7 +91,7 @@ REMEMBER: A class is not an object but it's used to the construct them.
 So what does it take to create and use an object? You need two classes. One class for the type of object you want to use and another class to test your new class. The tester class is where you put the main() method where you create and access objects of your new class type
 
 ### 1) Write your class
-
+``` java
     class Dog {
     	//instance variables 
     	int size; 
@@ -103,18 +103,18 @@ So what does it take to create and use an object? You need two classes. One clas
     		System.out.println("Ruff! Ruff!");
     	}
     }
-
+```
 ### 2) Write a test (TestDrive) class
-
+``` java
     class DogTestDrive {
     	//just a main method
     	public static void main (String[] args) {
     		//Dog test code goes here 
     	}
     }
-
+```
 ### 3) In your tester, make an object and access the object's variables and methods
-
+``` java
     class DogTestDrive {
     	public static void main (String[] args) {
     		Dog d = new Dog(); //make a dog object 
@@ -123,7 +123,7 @@ So what does it take to create and use an object? You need two classes. One clas
     		d.bark(); // and to call its bark method 
     	}
     }
-
+```
 For a true OO application you need objects talking to other objects, as opposed to a static main method creating and testing objects.
 
 ## The two uses of main:
