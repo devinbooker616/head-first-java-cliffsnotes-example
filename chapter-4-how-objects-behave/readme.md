@@ -23,3 +23,9 @@
 
 - Use == to compare two primitives, or to see if two references refer to the same object.
 - Use the equals() method to see if two different objects are equal.
+
+## Questions 
+
+- Methods can return (values)
+- Methods ca have how many parameters? (Multiple)
+- Java is (Pass-by-value) which means? (Pass-by-copy)
