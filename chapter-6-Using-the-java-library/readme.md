@@ -1,3 +1,5 @@
+## Bullet Points
+
 - ArrayList is a class in the java API.
 - To put something into an ArrayList, use add()
 - To remove something from an ArrayList use remove()
