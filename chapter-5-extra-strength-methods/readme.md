@@ -42,3 +42,8 @@
 ``` java 
     nameArray
 ```
+
+## Questions 
+- How do you run a test on something that doesn't exist? (You don't)
+- Why not wait till the code is written then use the test? (writing tests help clarify your thoughts)
+- what does getUserInput() do? (Get the user's input)
