@@ -70,3 +70,8 @@ or = ||
 not = !
 
 not equals = !=
+
+## Questions 
+- What's the boolean expression for and? (&&)
+- What's the boolean expression for or? (||)
+- What's the boolean expression for not? (!)
