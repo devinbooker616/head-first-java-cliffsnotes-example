@@ -1,3 +1,16 @@
+## Table of Contents
+- Understanding inheritance (superclass and subclass relationships) 168
+- Designing an inheritance tree (the Animal simulation) 170
+- Avoiding duplicate code (using inheritance) 171
+- Overriding methods 172
+- IS-A and HAS-A (bathtub girl) 
+- What do you inherit from your superclass? 
+- What does inheritance really buy you?                                                       
+- Polymorphism (using a supertype reference to a subclass object) 
+- Rules for overriding (don’t touch those arguments and return types!) 
+- Method overloading (nothing more than method name re-use) 
+- Exercises and puzzles
+
 - A subclass extends a superclass.
 - A subclass inherits all public instance variables and methods of the superclass but does not inherit the private instance variables and methods of the superclass.
 - Inherited methods can be overridden; instance variables cannot be overridden (although they can be redefined in the subclass, but that’s not the same thing, and there’s almost never a need to do it.)

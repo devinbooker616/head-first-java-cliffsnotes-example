@@ -1,3 +1,11 @@
+## Table of Contents
+-Methods use object state (bark different) 
+-Method arguments and return types 
+-Pass-by-value (the variable is always copied)                                                 -Getters and Setters 
+-Encapsulation (do it or risk humiliation) 
+-Using references in an array 
+-Exercises and puzzles 
+
 - Classes define what an object knows and what an object does.
 - Things an object knows are its instance variables (states).
 - Things an object does are its methods(behavior).

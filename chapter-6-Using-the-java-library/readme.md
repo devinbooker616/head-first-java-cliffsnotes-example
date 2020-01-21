@@ -1,3 +1,15 @@
+## Table of Contents
+- Analying the bug in the Simple Dot Com Game 
+- ArrayList (taking advantage of  the Java API) 
+- Fixing the DotCom class code 
+- Building the real game (Sink a Dot Com) 
+- Prepcode for the real game                                                                      
+- Code for the real game  
+- boolean expressions                                                                             
+- Using the library (Java API) 
+- Using packages (import statements, fully-qualifi ed names) 
+- Using the HTML API docs and reference books 158Exercises and puzzles 
+
 ## Bullet Points
 
 - ArrayList is a class in the java API.

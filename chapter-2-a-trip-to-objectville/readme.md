@@ -16,7 +16,7 @@ Guessing Game code
 
 Exercises and puzzles
 
-So in this chapter, we're going to look at what makes object-orientated (OO) development in Java so much fun. We'll look at the difference between a class and an object. Other things will be covered as well. 
+So in this chapter, we're going to look at what makes object-oriented (OO) development in Java so much fun. We'll look at the difference between a class and an object. Other things will be covered as well. 
 
 ## When you design a class, think about the objects that will be created from that class type. Think about:
 
@@ -24,7 +24,7 @@ So in this chapter, we're going to look at what makes object-orientated (OO) dev
 - things the object does
 
     ShoppingCart 
-    
+    ``` java
     //knows 
     cartContents
     
@@ -56,7 +56,7 @@ So in this chapter, we're going to look at what makes object-orientated (OO) dev
     getAlarmTime()
     isAlarmSet()
     snooze()
-
+```
 Things an object knows about itself are called
 
 - instance Variables
@@ -64,7 +64,6 @@ Things an object knows about itself are called
 Things an object can do are called 
 
 - methods
-
     Song 
     
     //instance variables(state) 

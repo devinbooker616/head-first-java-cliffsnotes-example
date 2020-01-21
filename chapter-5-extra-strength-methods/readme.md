@@ -1,3 +1,17 @@
+## Table of Contents
+- Building the Sink a Dot Com game 
+- Starting with the Simple Dot Com game (a simpler version) 
+- Writing prepcode (pseudocode for the game) 
+- Test code for Simple Dot Com 
+- Coding the Simple Dot Com game 
+- Final code for Simple Dot Com 
+- Generating random numbers with Math.random() 
+- Ready-bake code for getting user input from the command-line 
+- Looping with for loops                                                                          
+- Casting primitives from a large size to a smaller size 
+- Converting a String to an int with Integer.parseInt() 
+- Exercises and puzzles
+
 - Your java should start with a high-level design
 - typically you’ll write three things you when you create a new class:
     - Prepcode
