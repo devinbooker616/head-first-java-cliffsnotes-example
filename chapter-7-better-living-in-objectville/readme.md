@@ -11,6 +11,8 @@
 - Method overloading (nothing more than method name re-use) 
 - Exercises and puzzles
 
+## Bullet Points 
+
 - A subclass extends a superclass.
 - A subclass inherits all public instance variables and methods of the superclass but does not inherit the private instance variables and methods of the superclass.
 - Inherited methods can be overridden; instance variables cannot be overridden (although they can be redefined in the subclass, but that’s not the same thing, and there’s almost never a need to do it.)

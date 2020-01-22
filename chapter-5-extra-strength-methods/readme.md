@@ -12,6 +12,8 @@
 - Converting a String to an int with Integer.parseInt() 
 - Exercises and puzzles
 
+## Bullet Points
+
 - Your java should start with a high-level design
 - typically you’ll write three things you when you create a new class:
     - Prepcode

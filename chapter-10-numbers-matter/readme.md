@@ -1,3 +1,18 @@
+## Table of Content
+- Math class (do you really need an instance of it?)
+- static methods
+- static variables
+- Constants (static fi nal variables)
+- Math methods (random(), round(), abs(), etc.) 
+- Wrapper classes (Integer, Boolean, Character, etc.) 
+- Autoboxing 
+- Number formatting 
+- Date formatting and manipulation 
+- Static imports 
+- Exercises and puzzles 
+
+## Bullet Points
+
 - A static method should be called using the class name rather than an object reference variable: Math.random() vs. myFoo.go().
 - A static method can be invoked without any instances of the method’s class on the heap.
 - A static method is good for a utility method that does not (and will never) depend on a particular instance variable value.

@@ -1,3 +1,20 @@
+## Table of Content 
+- The stack and the heap, where objects and variables live 
+- Methods on the stack 
+- Where local variables live 
+- Where instance variables live 
+- The miracle of object creation 
+- Constructors (the code that runs when you say new) 
+- Initializing the state of a new Duck 
+- Overloaded constructors 
+- Superclass constructors (constructor chaining) 
+- Invoking overloaded constructors using this() 
+- Life of an object 
+- Garbage Collection (and making objects eligible) 
+- Exercises and puzzles 
+
+## Bullet Points
+
 - instance variables live within the object they belong to, on the Heap.
 - If the instance variable is a reference to an object, both the reference and the object it refers to are on the Heap.
 - A constructor is the code that runs when you say new on a class type.

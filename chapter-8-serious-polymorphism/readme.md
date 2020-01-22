@@ -1,3 +1,24 @@
+## Table of Contents
+
+- Some classes just should not be instantiated 
+- Abstract classes (can’t be instantiated) 
+- Abstract methods (must be implemented) 
+- Polymorphism in action 
+- Class Object (the ultimate superclass of everything) 
+- Taking objects out of an ArrayList (they come out as type Object) 
+- Compiler checks the reference type (before letting you call a method) 
+- Get in touch with your inner object 
+- Polymorphic references 
+- Casting an object reference (moving lower on the inheritance tree) 
+- Deadly Diamond of Death (multiple inheritance problem) 
+- Using interfaces (the best solution!) 224
+- Exercises and puzzles 230
+
+
+
+
+## Bullet Points
+
 - When you don’t want a class to be instantiated (in other words, you don’t want anyone to make a new object of that class type) mark the class with the abstract keyword.
 - An abstract class can have both abstract and non-abstract methods.
 - If a class has even one abstract method, the class must be marked abstract.

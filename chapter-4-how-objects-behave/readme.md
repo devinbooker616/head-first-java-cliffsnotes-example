@@ -6,6 +6,8 @@
 -Using references in an array 
 -Exercises and puzzles 
 
+## Bullet Points
+
 - Classes define what an object knows and what an object does.
 - Things an object knows are its instance variables (states).
 - Things an object does are its methods(behavior).
