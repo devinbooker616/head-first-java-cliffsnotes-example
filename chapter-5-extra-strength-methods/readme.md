@@ -25,7 +25,7 @@
 - choose for loops over while loops when you know how many times you want to repeat the loop code
 - Use the pre/post increment operator to add 1 to a variable (x++) and for decrement use (x++)
 - Use Integer.ParseInt() to get the int value of a string
-- Integer.ParaeInt() works only if the string represents a digit (“0”, “1”, “2”, etc)
+- Integer.ParaseInt() works only if the string represents a digit (“0”, “1”, “2”, etc)
 - use break to leave a loop early (I.e, if the Boolean test condition is true
 
 ## For Loops
