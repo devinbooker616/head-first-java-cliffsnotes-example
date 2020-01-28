@@ -10,5 +10,7 @@ class GoodDogTestDrive {
         System.out.println("Dog two: " + two.getSize());
         one.bark();
         two.bark();
+        int[] array = new int[] { 1, 2, 3, 4 };
+        System.out.println(array);
     }
 }
