@@ -14,5 +14,9 @@ public class App {
             }
 
         }
+        String[] list = { "Something ", "about ", "a ", "foreach ", "loop " };
+        for (String words : list) {
+            System.out.print(words);
+        }
     }
 }
