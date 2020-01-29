@@ -64,6 +64,37 @@ Math. random() is used to return a pseudorandom double type number greater than 
 int randomNum = (int) (Math.random() * 5); ///random number being multiplied by 5
 ```
 
+## Casting 
+In chapter 3 we talked about the sizes of the various primitives, and how you
+can’t shove a big thing directly into a small thing:
+``` java 
+long y = 42;
+int x = y; // won’t compile
+```
+A long is bigger than an int and the compiler can’t be sure where that long has
+been. It might have been out drinking with the other longs, and taking on really
+big values. To force the compiler to jam the value of a bigger primitive variable
+into a smaller one, you can use the cast operator. It looks like this:
+``` java 
+long y = 42; // so far so good
+int x = (int) y; // x = 42 cool!
+```
+Putting in the cast tells the compiler to take the value of y, chop it down to int
+size, and set x equal to whatever is left. If the value of y was bigger than the
+maximum value of x, then what’s left will be a weird (but calculable*) number:
+``` java 
+long y = 40002;
+// 40002 exceeds the 16-bit limit of a short
+short x = (short) y; // x now equals -25534!
+```
+Still, the point is that the compiler lets you do it. And let’s say you have a floating point number, and you just want to get at the whole number (int) part of it:
+``` java 
+float f = 3.14f;
+int x = (int) f; // x will equal 3
+```
+ And don’t even think about casting anything to a boolean or vice versa—just
+walk away
+
 ## Questions 
 - How do you run a test on something that doesn't exist? (You don't)
 - Why not wait till the code is written then use the test? (writing tests help clarify your thoughts)
