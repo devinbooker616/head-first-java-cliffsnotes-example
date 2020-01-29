@@ -14,9 +14,13 @@ public class App {
             }
 
         }
+        int randomNum = (int) (Math.random() * 5);
+        System.out.println(randomNum);
+
         String[] list = { "Something ", "about ", "a ", "foreach ", "loop " };
         for (String words : list) {
             System.out.print(words);
         }
+
     }
 }
