@@ -58,6 +58,8 @@
 ``` java 
     nameArray
 ```
+## Math.random()
+Math. random() is used to return a pseudorandom double type number greater than or equal to 0.0 and less than 1.0.
 
 ## Questions 
 - How do you run a test on something that doesn't exist? (You don't)
